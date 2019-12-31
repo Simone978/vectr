@@ -1,0 +1,176 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+/* typography */
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* utilities */
+.white {
+  color: white;
+}
+.grey {
+  color: grey;
+}
+
+/* header */
+
+.wrapper_menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #212525;
+  border-bottom: 1px solid rgba(66,77,81,0.25);
+  padding-top: 20px;
+}
+
+/* menu */
+
+.top_menu_box {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  background-color: #212525;
+  margin: 0 auto;
+}
+
+.menu_logo img {
+  width: 100px;
+}
+.menu_right {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.menu_right ul {
+  display: flex;
+}
+.menu_right li a:not(.buttons){
+  color: white;
+}
+.menu_right li{
+  padding: 0 5px;
+}
+.buttons {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid green;
+}
+
+.bars .hamburger {
+  font-size: 2.5em;
+  display: none;
+}
+
+/* media query */
+
+@media screen and (max-width: 970px) {
+  .top_menu_box {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .menu_right ul {
+    display: none;
+  }
+
+  .bars .hamburger {
+    display: block;
+  }
+}
+
+/* jumbotron */
+
+.wrapper_jumbotron {
+  width: 100%;
+  margin-top: 80px;
+  background-color: #212525;
+}
+.jumbotron {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #212525;
+}
+.jumbotron_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 50px;
+}
+.jumbotron_bottom img{
+  width: 100%;
+  box-shadow: 2px -1px 1px 0px rgba(255,255,255,1);
+  border-radius: 5px;
+}
+
+/* media query */
+
+@media screen and (max-width: 970px) {
+  .jumbotron {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+/* loghi */
+
+.wrapper_loghi {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(66,77,81,0.25);
+}
+.loghi {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 80px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.loghi img {
+  /* width: 10%; */
+}
+
+/* media query */
+
+@media screen and (max-width: 970px) {
+  .loghi {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+/* learning */
+
+.wrapper_learning {
+  display: flex;
+}
+
+.learning_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+}
+.learning_img {
+  flex-grow: 2;
+}
+.learning_img img {
+  width: 100%;
+}
