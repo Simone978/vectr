@@ -160,6 +160,7 @@ li {
 
 .wrapper_learning {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .learning_text {
