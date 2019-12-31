@@ -158,20 +158,60 @@ li {
 
 /* learning */
 
-.wrapper_learning {
+.wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 80px;
 }
 
-.learning_text {
+.text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 35%;
 }
+
+.format_img{
+  display: flex;
+  align-self: flex-end;
+}
+
 .learning_img {
   flex-grow: 2;
 }
+
 .learning_img img {
   width: 100%;
+}
+
+/* design */
+
+.wrapper_design {
+  height: 700px;
+  background-color: #1F2324;
+}
+
+.design_text{
+  width: 35%;
+}
+
+/* vector */
+
+.wrapper_vector {
+  height: 700px;
+}
+
+.vector_img_container{
+  height: 250px;
+  width: 380px;
+  overflow: hidden;
+  margin-left: 20px;
+  background-image: url('../img/vector.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.vector_img img {
+  width: 400px;
 }
