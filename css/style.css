@@ -300,4 +300,13 @@ li {
   .footer_link {
     display: none;
   }
+
+  .footer_bottom {
+    padding-left: 5%;
+    margin-right: 5%;
+  }
+
+  .footer_switch_language {
+    width: 100%;
+  }
 }
