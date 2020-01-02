@@ -154,6 +154,11 @@ li {
 /* media query */
 
 @media screen and (max-width: 970px) {
+
+  .hidden_md {
+    display: none;
+  }
+
   .loghi {
     width: 100%;
     padding: 0 20px;
@@ -189,6 +194,19 @@ li {
   width: 100%;
 }
 
+/* media query */
+
+@media screen and (max-width: 970px) {
+
+  .vector_img {
+    width: 100%;
+  }
+
+  .vector_img_container {
+    width: 50%;
+  }
+}
+
 /* design */
 
 .wrapper_design {
@@ -198,6 +216,19 @@ li {
 
 .design_text{
   width: 35%;
+}
+
+/* media query */
+
+@media screen and (max-width: 970px) {
+
+  .design_img {
+    width: 100%;
+  }
+
+  .design_img img {
+    width: 100%;
+  }
 }
 
 /* vector */
