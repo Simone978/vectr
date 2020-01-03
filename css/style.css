@@ -5,7 +5,8 @@
 }
 
 body {
-  font-size: 16px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* typography */
@@ -47,7 +48,7 @@ li {
 .top_menu_box {
   display: flex;
   align-items: center;
-  width: 70%;
+  width: 65%;
   background-color: #212525;
   margin: 0 auto;
 }
@@ -64,20 +65,29 @@ li {
   display: flex;
 }
 .menu_right li a:not(.buttons){
+  color: #536970;
+}
+.menu_right li .buttons {
   color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #536970;
+}
+.menu_right li .buttons.active {
+  border: 2px solid #A1DE41;
 }
 .menu_right li{
   padding: 0 5px;
-}
-.buttons {
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid green;
 }
 
 .bars .hamburger {
   font-size: 2.5em;
   display: none;
+}
+
+.arrow-down {
+  font-size: .6em;
+  padding-left: 5px;
 }
 
 /* media query */
@@ -105,7 +115,7 @@ li {
   background-color: #212525;
 }
 .jumbotron {
-  width: 70%;
+  width: 65%;
   margin: 0 auto;
   background-color: #212525;
 }
@@ -142,7 +152,7 @@ li {
 .loghi {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 65%;
   height: 80px;
   margin: 0 auto;
   background-color: #fff;
