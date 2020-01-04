@@ -162,6 +162,9 @@ p {
     width: 100%;
     padding: 0 20px;
   }
+  .jumbotron_header h1 {
+    text-align: center;
+  }
 }
 
 /* loghi */
@@ -371,6 +374,10 @@ p {
   width: 400px;
 }
 
+a.underline_vector {
+  width: 180px;
+}
+
 /* free vectr */
 
 .wrapper_freevectr {
@@ -392,12 +399,36 @@ p {
   padding-bottom: 20px;
 }
 
+.vector_img_container {
+  box-shadow: -8px 7px 5px 0px rgba(234,234,234,1);
+}
+
 /* media query */
 
 @media screen and (max-width: 970px) {
 
   .box_format {
     width: 100%;
+  }
+
+  .vector_img img {
+    width: 50%;
+  }
+  .vector_text {
+    width: 100%;
+  }
+
+  .text {
+    align-items: center;
+  }
+  .text p{
+    text-align: center;
+  }
+  .text h2 {
+    text-align: center;
+  }
+  .text h2:after {
+    margin: 15px auto;
   }
 }
 
