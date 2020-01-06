@@ -72,6 +72,18 @@ p {
 .menu_right li a:not(.buttons){
   color: #536970;
 }
+.menu_right li a:not(.buttons):hover {
+  color: white;
+}
+.menu_right li a:not(.buttons):not(.more):hover {
+  border-bottom: 2px solid #1FC0ED;
+  padding-bottom: 6px;
+}
+.menu_right li a.buttons:hover,
+.jumbotron_header a.buttons:hover {
+  background-color: #242A2D;
+  color: #A1D537;
+}
 
 .buttons {
   color: white;
@@ -466,6 +478,9 @@ a.underline_vector {
 }
 .footer_menu {
   padding-right: 10%;
+}
+.footer_menu li a:hover {
+  color: #3E5351;
 }
 
 .footer_switch_language {
